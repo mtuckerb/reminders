@@ -1,4 +1,4 @@
-[![Rust](https://github.com/mtuckerb/reminders/actions/workflows/rust.yml/badge.svg)](https://github.com/mtuckerb/reminders/actions/workflows/rust.yml)
+[![Reminders release](https://github.com/mtuckerb/reminders/actions/workflows/rust.yml/badge.svg)](https://github.com/mtuckerb/reminders/actions/workflows/rust.yml)
 
 # Summary
 This little app will monitor a directory of your choice for changes. When a notify event occurs, it will check the changed file for markdown style todos.
