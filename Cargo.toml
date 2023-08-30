@@ -6,11 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "0.4.26"
 clap = { version = "4.4.0", features = ["derive"] }
 log = "0.4.20"
 notify = "6.1.1"
 notify-debouncer-mini = "0.4.1"
 osascript = { git = "https://github.com/mtuckerb/rust-osascript.git", branch = "master" }
 redis = "0.23.2"
+regex = "1.9.4"
 serde = "1.0.186"
 serde_derive = "1.0.186"
